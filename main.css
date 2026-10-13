@@ -1,0 +1,23 @@
+body {
+    background-color: #274156;
+}
+
+nav {
+    color: #FBFCFF;
+    margin-left: 500px;
+}
+
+h1 {
+    color:#FBFCFF;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #FBFCFF;
+    margin-bottom: 70px;
+}
+
+.tekstblok {
+    background-color: #605856;
+    color: #FBFCFF;
+}
