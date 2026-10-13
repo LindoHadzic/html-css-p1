@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    color: blue;
+  justify-content: space-around;
+    background-color: gold;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.midden {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.rechts {
+    display: flex;
+    align-items: center;
+}
