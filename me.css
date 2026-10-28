@@ -1,0 +1,22 @@
+body {
+    background-color: #274156;
+}
+
+.menu {
+  color: #FBFCFF;
+  list-style: none;
+  display: flex;
+  gap: 250px;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+    color: #FBFCFF;
+    text-decoration: none;
+}
+
+.tekstblok {
+    background-color: #605856;
+    color: #FBFCFF;
+}
