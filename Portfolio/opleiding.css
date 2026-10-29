@@ -24,3 +24,8 @@ h1 {
     background-color: #605856;
     color: #FBFCFF;
 }
+
+table, th, td {
+    color: #FBFCFF;
+    border: 1px solid;
+}
