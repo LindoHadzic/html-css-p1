@@ -6,9 +6,26 @@ body {
   color: #FBFCFF;
   list-style: none;
   display: flex;
-  gap: 250px;
+  gap: 625px;
   padding: 0;
   margin: 0;
+  font-size: 30px;
+  width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px 20px;
 }
 
 h1 {
@@ -25,3 +42,57 @@ a{
     color: #FBFCFF;
     text-decoration: none;
 }
+
+.body-me {
+    background-color: #274156;
+}
+
+.menu-me {
+  color: #FBFCFF;
+  list-style: none;
+  display: flex;
+  gap: 250px;
+  padding: 0;
+  margin: 0;
+}
+
+.tekstblok {
+    background-color: #605856;
+    color: #FBFCFF;
+    border-radius: 8px;
+    padding: 4px 8px;
+    width: fit-content;
+}
+
+table, th, td {
+    color: #FBFCFF;
+    border: 1px solid;
+}
+
+.website {
+  width: 40%;
+}
+
+.blokken {
+  width: 30%;
+}
+
+.titel {
+  width: 35%;
+}
+
+.Video {
+  color: #FBFCFF;
+  font-size: 35px;
+}
+
+@media (max-width: 768px) {
+    .tekstblok {
+        width: 90%;       /* Maakt het blok op kleinere schermen 90% breed zodat het past */
+        padding: 15px;    /* Wat compactere padding voor mobiel */
+    }
+  }
+
+  .LH {
+    font-family: 'Poppins', ;
+  }
