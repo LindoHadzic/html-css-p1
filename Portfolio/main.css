@@ -1,15 +1,16 @@
 body {
     background-color: #274156;
+    color: #FBFCFF;
 }
 
 .menu {
   color: #FBFCFF;
   list-style: none;
   display: flex;
-  gap: 625px;
+  gap: 155px;
   padding: 0;
   margin: 0;
-  font-size: 30px;
+  font-size: 25px;
   width: 100%;
 }
 
@@ -28,6 +29,11 @@ body {
     padding: 15px 20px;
 }
 
+.titel {
+    background-color: #605856;
+    color: #FBFCFF;
+}
+
 h1 {
     color:#FBFCFF;
     margin-bottom: 5px;
@@ -43,17 +49,8 @@ a{
     text-decoration: none;
 }
 
-.body-me {
-    background-color: #274156;
-}
-
-.menu-me {
-  color: #FBFCFF;
-  list-style: none;
-  display: flex;
-  gap: 250px;
-  padding: 0;
-  margin: 0;
+.staan {
+    color: #FBFCFF;
 }
 
 .tekstblok {
@@ -71,14 +68,17 @@ table, th, td {
 
 .website {
   width: 40%;
+  border-radius: 8px;
 }
 
 .blokken {
   width: 30%;
+  border-radius: 8px;
 }
 
 .titel {
   width: 35%;
+  border-radius: 8px;
 }
 
 .Video {
@@ -86,13 +86,20 @@ table, th, td {
   font-size: 35px;
 }
 
-@media (max-width: 768px) {
-    .tekstblok {
-        width: 90%;       /* Maakt het blok op kleinere schermen 90% breed zodat het past */
-        padding: 15px;    /* Wat compactere padding voor mobiel */
+#mijn-foto {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 8px;
     }
-  }
 
-  .LH {
-    font-family: 'Poppins', ;
-  }
+    footer {
+        display: flex;
+        top: 10px;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 30px;
+        background-color: #605856;
+        border-radius: 8px;
+    }
