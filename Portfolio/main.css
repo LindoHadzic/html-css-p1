@@ -16,6 +16,9 @@ body {
   width: 100%;
 }
 
+nav a:hover {
+    color: #000000;
+}
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -52,7 +55,12 @@ a{
 }
 
 .staan {
-    color: #FBFCFF;
+    justify-content: flex-start;
+}
+
+.demon {
+    border: 10px #FBFCFF;
+    padding-left: 20px;
 }
 
 .tekstblok {
@@ -104,4 +112,8 @@ footer {
     padding-top: 30px;
     background-color: #605856;
     border-radius: 8px;
+    }
+
+    footer a:hover {
+        color: black;
     }
