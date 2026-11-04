@@ -55,12 +55,14 @@ a{
 }
 
 .staan {
+    display: flex;
     justify-content: flex-start;
 }
 
 .demon {
-    border: 10px #FBFCFF;
+    border: 10px solid #FBFCFF;
     padding-left: 20px;
+    width: 14%;
 }
 
 .tekstblok {
