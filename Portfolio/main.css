@@ -34,9 +34,70 @@ nav a:hover {
     padding: 15px 20px;
 }
 
+.contact {
+    background-color: #605856;
+    border-radius: 8px;
+    padding: 4px 8px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
 .titel {
     background-color: #605856;
-    color: #FBFCFF;
+    border-radius: 8px;
+    padding: 4px 8px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.inter {
+    background-color: #605856;
+    border-radius: 8px;
+    padding: 4px 8px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.pro {
+    background-color: #605856;
+    border-radius: 8px;
+    padding: 4px 8px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.ome {
+    background-color: #605856;
+    border-radius: 8px;
+    padding: 4px 8px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.oppa {
+    background-color: #605856;
+    border-radius: 8px;
+    padding: 4px 8px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
 }
 
 h1 {
@@ -67,7 +128,6 @@ a{
 
 .tekstblok {
     background-color: #605856;
-    color: #FBFCFF;
     border-radius: 8px;
     padding: 4px 8px;
     width: fit-content;
@@ -88,7 +148,7 @@ table, th, td {
   border-radius: 8px;
 }
 
-.titel {
+.ti-tel {
   width: 35%;
   border-radius: 8px;
 }
