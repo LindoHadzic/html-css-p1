@@ -93,6 +93,11 @@ table, th, td {
   border-radius: 8px;
 }
 
+.zeven-een {
+    width: 30%;
+    border-radius: 8px;
+}
+
 .Video {
   color: #FBFCFF;
   font-size: 35px;
