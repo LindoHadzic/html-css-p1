@@ -188,12 +188,12 @@ footer {
 
 body {
   background-color: #274156;
-  color: #FBCFF;
+  color: #FBFCFF;
 }
 
 .menu {
   background-color: #605856;
-  color: #FBCFF;
+  color: #FBFCFF;
   list-style: none;
   display: flex;
   border-radius: 8px;
@@ -290,17 +290,17 @@ nav a:hover {
 }
 
 h1 {
-  color: #FBCFF;
+  color: #FBFCFF;
   margin-bottom: 5px;
 }
 
 h2 {
-  color: #FBCFF;
+  color: #FBFCFF;
   margin-bottom: 70px;
 }
 
 a {
-  color: #FBCFF;
+  color: #FBFCFF;
   text-decoration: none;
 }
 
@@ -309,8 +309,21 @@ a {
   justify-content: flex-start;
 }
 
+.pf {
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+.Video {
+position: absolute;
+bottom: 0px;
+right: 0px;
+width: 200px;
+z-index: 1000;
+}
+
 .demon {
-  border: 10px solid #FBCFF;
+  border: 10px solid #FBFCFF;
   padding-left: 20px;
   width: 14%;
 }
@@ -323,7 +336,7 @@ a {
 }
 
 table, th, td {
-  color: #FBCFF;
+  color: #FBFCFF;
   border: 1px solid;
 }
 
@@ -345,10 +358,15 @@ table, th, td {
 .zeven-een {
   width: 30%;
   border-radius: 8px;
+  position: absolute;
+  bottom: 320px;
+  right:0px;
+  width: 500px;
+  z-index: 1000;
 }
 
 .Video {
-  color: #FBCFF;
+  color: #FBFCFF;
   font-size: 35px;
 }
 
@@ -372,6 +390,14 @@ footer {
 
 footer a:hover {
   color: black;
+}
+
+.pf{
+    display: flex;
+    justify-content: flex-end;
+    right: 80px;
+    width: 200px;
+    position: absolute;
 }
 
 @media screen and (max-width: 768px) {
@@ -439,4 +465,6 @@ footer a:hover {
     bottom: 10px;
     right: 10px;
   }
+
+  
 }
