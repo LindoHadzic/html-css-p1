@@ -19,6 +19,7 @@ body {
 nav a:hover {
     color: #000000;
 }
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -184,3 +185,258 @@ footer {
     footer a:hover {
         color: black;
     }
+
+body {
+  background-color: #274156;
+  color: #FBCFF;
+}
+
+.menu {
+  background-color: #605856;
+  color: #FBCFF;
+  list-style: none;
+  display: flex;
+  border-radius: 8px;
+  gap: 155px;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  width: 100%;
+}
+
+nav a:hover {
+  color: #000000;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 15px 20px;
+}
+
+.contact {
+  background-color: #605856;
+  border-radius: 8px;
+  padding: 4px 8px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.titel {
+  background-color: #605856;
+  border-radius: 8px;
+  padding: 4px 8px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.inter {
+  background-color: #605856;
+  border-radius: 8px;
+  padding: 4px 8px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.pro {
+  background-color: #605856;
+  border-radius: 8px;
+  padding: 4px 8px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.ome {
+  background-color: #605856;
+  border-radius: 8px;
+  padding: 4px 8px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.oppa {
+  background-color: #605856;
+  border-radius: 8px;
+  padding: 4px 8px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+h1 {
+  color: #FBCFF;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #FBCFF;
+  margin-bottom: 70px;
+}
+
+a {
+  color: #FBCFF;
+  text-decoration: none;
+}
+
+.staan {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.demon {
+  border: 10px solid #FBCFF;
+  padding-left: 20px;
+  width: 14%;
+}
+
+.tekstblok {
+  background-color: #605856;
+  border-radius: 8px;
+  padding: 4px 8px;
+  width: fit-content;
+}
+
+table, th, td {
+  color: #FBCFF;
+  border: 1px solid;
+}
+
+.website {
+  width: 40%;
+  border-radius: 8px;
+}
+
+.blokken {
+  width: 30%;
+  border-radius: 8px;
+}
+
+.ti-tel {
+  width: 35%;
+  border-radius: 8px;
+}
+
+.zeven-een {
+  width: 30%;
+  border-radius: 8px;
+}
+
+.Video {
+  color: #FBCFF;
+  font-size: 35px;
+}
+
+#mijn-foto {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+footer {
+  display: flex;
+  top: 10px;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  background-color: #605856;
+  border-radius: 8px;
+}
+
+footer a:hover {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .staan {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .demon,
+  .website,
+  .blokken,
+  .ti-tel,
+  .zeven-een {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .Video {
+    font-size: 24px;
+  }
+
+  #mijn-foto {
+    width: 60px;
+    bottom: 10px;
+    right: 10px;
+  }
+}
