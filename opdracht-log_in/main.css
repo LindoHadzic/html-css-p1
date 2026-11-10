@@ -1,11 +1,21 @@
 body {
     background-color: gainsboro;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.naam {
+    display: flex;
+    justify-content: left;
+    margin-inline: auto;
+    margin-left: 20px;
 }
 
 h2 {
     display: flex;
     justify-content: center;
     margin-inline: auto;
+    font-size: 27px;
 }
 
 p {
@@ -15,10 +25,10 @@ p {
 }
 
 .snap-div {
-    background-color: white;
+    background-color: rgb(244, 243, 243);
     width: fit-content;
     height: 420px;
-    width: 300px;
+    width: 350px;
     margin-left: 600px;
 }
 
@@ -26,6 +36,9 @@ input {
     display: flex;
     justify-content: center;
     margin-inline: auto;
+    height: 40px;
+    width: 300px;
+    border-radius: 4px 8px;
 }
 
 .snap {
@@ -34,8 +47,40 @@ input {
     margin-inline: auto;
     text-decoration: none;
     list-style-type: none;
-    color: blue;
+    color: #1D9BF0;
 }
+
 li{
     list-style: none;
+}
+
+
+img {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.volgende {
+    background-color: #1D9BF0;
+    color: rgb(237, 237, 242);
+    font-size: 18px;
+    border-radius: 4px 8px;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+.inloggen {
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    border-radius: 4px 8px;
+}
+
+.sleutel {
+    
 }
