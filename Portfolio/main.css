@@ -401,6 +401,14 @@ footer a:hover {
     border: 1px solid;
 }
 
+.naam {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 90px;
+  z-index: 1000;
+}
+
 @media screen and (max-width: 768px) {
   .menu {
     flex-wrap: wrap;
