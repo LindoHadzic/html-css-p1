@@ -396,9 +396,12 @@ footer a:hover {
     display: flex;
     justify-content: flex-end;
     right: 80px;
-    width: 200px;
+    width: 225px;
+    height: 225px;
     position: absolute;
     border: 1px solid;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .naam {
