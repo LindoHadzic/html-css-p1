@@ -1,0 +1,38 @@
+body {
+    color: white;
+}
+
+h1 {
+    color: #000000;
+}
+
+.boven {
+    background-color: #A8A3E8;
+}
+
+.basic {
+    background-color: #7B73E0;
+}
+
+.start {
+    background-color: #7B73E0;
+}
+
+.Unlimited {
+    background-color: #7B73E0;
+}
+
+.Plus {
+    background-color: #7B73E0;
+}
+
+.hoi {
+    background-color: #000000;
+}
+
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
