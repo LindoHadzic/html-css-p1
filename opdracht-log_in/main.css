@@ -1,5 +1,5 @@
 body {
-    background-color: gainsboro;
+    background-color: rgb(236, 234, 234);
     font-family: sans-serif;
     font-size: 14px;
 }
@@ -30,6 +30,8 @@ p {
     height: 420px;
     width: 350px;
     margin-left: 600px;
+    margin-top: 50px;
+    border-radius: 4px 8px;
 }
 
 input {
@@ -75,8 +77,27 @@ img {
 }
 
 .inloggen {
+    background-color: white;
     display: flex;
     justify-content: center;
     margin-inline: auto;
     border-radius: 4px 8px;
+    margin-top: 10px;
+}
+
+.google {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.sleutel {
+    height: 20px;
+    margin-top: 10px;
+}
+
+.google- {
+    height: 20px;
+    margin-top: 10px;
 }
