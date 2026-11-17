@@ -342,6 +342,9 @@ a {
   padding: 4px 8px;
   display: flex;
   justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
 .tekstblok-int {
@@ -351,6 +354,9 @@ a {
   height: 300px;
   width: 1500px;
   width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
 .tekstblok-op {
@@ -359,13 +365,19 @@ a {
   padding: 4px 8px;
   height: 300px;
   width: 1500px;
+  margin-top: 100px;
   width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table, th, td {
   color: #FBFCFF;
   border: 1px solid;
+  margin-top: 20px;
   margin-bottom: 65px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .website {
@@ -423,15 +435,16 @@ footer {
 }
 
 .fme {
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .fin {
-margin-top: 210px;
+margin-top: 200px;
 }
 
 .fop {
-  margin-top: 5px;
+  margin-top: 0px;
+  margin-bottom: 100px;
 }
 
 .fpr {
