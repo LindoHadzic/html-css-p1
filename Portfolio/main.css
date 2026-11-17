@@ -195,11 +195,10 @@ body {
   background-color: #605856;
   color: #FBFCFF;
   list-style: none;
-  display: flex;
   border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
   gap: 155px;
-  padding: 0;
-  margin: 0;
   font-size: 25px;
   width: 100%;
 }
@@ -325,11 +324,10 @@ a {
 }
 
 .Video {
-position: absolute;
-bottom: 0px;
-right: 0px;
-width: 200px;
-z-index: 1000;
+  margin-top: -13%;
+  right: 0px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .demon {
@@ -342,6 +340,26 @@ z-index: 1000;
   background-color: #1C6E8C;
   border-radius: 8px;
   padding: 4px 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tekstblok-int {
+  background-color: #1C6E8C;
+  border-radius: 8px;
+  padding: 4px 8px;
+  height: 300px;
+  width: 1500px;
+  width: fit-content;
+}
+
+.tekstblok-op {
+  background-color: #1C6E8C;
+  border-radius: 8px;
+  padding: 4px 8px;
+  height: 300px;
+  width: 1500px;
+  width: fit-content;
 }
 
 table, th, td {
@@ -362,6 +380,7 @@ table, th, td {
 
 .video {
   border: 5px solid #1C6E8C;
+  height: 400px;
 }
 
 .ti-tel {
@@ -404,7 +423,7 @@ footer {
 }
 
 .fme {
-  margin-top: 170px;
+  margin-top: 120px;
 }
 
 .fin {
@@ -416,7 +435,7 @@ margin-top: 210px;
 }
 
 .fpr {
-  margin-top: 45px;
+  margin-top: 200px;
 }
 
 .fcon {
